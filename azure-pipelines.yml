@@ -11,13 +11,13 @@ pool:
 strategy:
   matrix:
     Python38:
-      python.version: '3.8.18'
+      python.version: '3.8'
       architecture: 'x64'
     Python39:
-      python.version: '3.9.18'
+      python.version: '3.9'
       architecture: 'x64'
     Python310:
-      python.version: '3.10.13'
+      python.version: '3.10'
       architecture: 'x64'
 
 steps:
